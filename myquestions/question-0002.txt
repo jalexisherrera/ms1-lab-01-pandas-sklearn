@@ -1,0 +1,5 @@
+Problema (pandas)
+
+Recibes un DataFrame de pandas `df` con columnas numéricas y/o no numéricas, que puede contener valores NaN.
+
+Tu misión: implementa una función llamada `contar_nulos_por_columna(df)` que devuelva una **Serie de pandas** indexada por el nombre de cada columna de `df`, donde cada valor es el número de celdas nulas (NaN) en esa columna. El índice debe coincidir con el orden de las columnas de `df.columns`.

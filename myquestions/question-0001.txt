@@ -1,0 +1,9 @@
+Problema (pandas)
+
+Recibes un DataFrame de pandas `df` y una lista de nombres de columnas `columnas` que existen en `df`.
+
+Tu misión: implementa una función llamada `seleccionar_columnas(df, columnas)` que devuelva un **nuevo** DataFrame que contenga únicamente esas columnas, en el mismo orden indicado en la lista `columnas`.
+
+Requisitos:
+- No modifiques el DataFrame original `df` (trabaja sobre una copia o devuelve una vista segura que no altere el original al mutar el resultado).
+- `columnas` es una lista de strings con al menos una columna y todas deben existir en `df`.

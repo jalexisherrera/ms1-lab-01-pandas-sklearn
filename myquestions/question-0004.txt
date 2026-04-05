@@ -1,0 +1,5 @@
+Problema (sklearn)
+
+Recibes una matriz `X` como array de NumPy de forma `(n_muestras, n_features)` con valores numéricos, donde pueden aparecer valores NaN. En cada columna existe **al menos un** valor no nulo (de modo que la mediana de la columna esté bien definida para la imputación).
+
+Tu misión: implementa una función llamada `imputar_mediana_y_devolver(X)` que, usando **SimpleImputer** de sklearn con estrategia `'median'`, calcule los valores de imputación con `fit` sobre `X` y devuelva el resultado de `transform`: un array de NumPy sin NaN.

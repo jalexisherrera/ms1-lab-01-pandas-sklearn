@@ -1,0 +1,5 @@
+Problema (sklearn)
+
+Recibes una matriz `X` como array de NumPy de forma `(n_muestras, n_features)` con valores numéricos finitos (sin NaN ni inf). Los datos pueden contener **valores atípicos extremos** en algunas columnas.
+
+Tu misión: implementa una función llamada `escalar_robusto(X)` que, usando **RobustScaler** de sklearn, ajuste el escalador con `X` y devuelva la matriz transformada (misma forma que `X`) como array de NumPy de tipo float. RobustScaler centra y escala usando la mediana y el rango intercuartílico (IQR), lo que reduce la influencia de outliers frente a la estandarización clásica.
