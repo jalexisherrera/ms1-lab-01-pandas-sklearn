@@ -21,3 +21,4 @@ Enunciado: [m00-assignment-20261](https://rramosp.github.io/ai4eng.v1/content/m0
 ## Fase 2 (IDs asignados)
 
 - `0131` -> `myanswers/answer-0131.py` (resuelto y validado contra su generador asignado).
+- `0221` -> `myanswers/answer-0221.py` (resuelto y validado contra su generador asignado).
