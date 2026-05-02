@@ -17,3 +17,7 @@ Enunciado: [m00-assignment-20261](https://rramosp.github.io/ai4eng.v1/content/m0
 - Los nombres de archivo y la numeración (`0001`–`0004`) deben ser **exactos** para el proceso automático del curso.
 - Revisa la hoja de preguntas del curso y **sustituye** los enunciados y generadores de ejemplo si se solapan con compañeros.
 - Puedes validar generadores y soluciones en un notebook local (como en el repo de ejemplo del profesor).
+
+## Fase 2 (IDs asignados)
+
+- `0131` -> `myanswers/answer-0131.py` (resuelto y validado contra su generador asignado).
